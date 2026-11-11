@@ -5,7 +5,7 @@
 **María Aller** · QA Automation Engineer (SSR+)
 QA enfocada en testing de APIs y automatización mobile, con experiencia en diseño de estrategias de testing y detección de bugs críticos.
 
-[LinkedIn](https://www.linkedin.com/in/maria-aller/) · maller.arg@gmail.com
+[LinkedIn](https://www.linkedin.com/in/maria-aller/) · aller.maru@gmail.com
 
 ---
 
