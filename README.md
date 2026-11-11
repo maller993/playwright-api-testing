@@ -1,4 +1,4 @@
-# QA Automation Portfolio — API Testing with Playwright
+# API testing con Playwright
 
 [![Playwright API Tests](https://github.com/maller993/mi-portfolio-qa/actions/workflows/playwright.yml/badge.svg)](https://github.com/maller993/mi-portfolio-qa/actions)
 
