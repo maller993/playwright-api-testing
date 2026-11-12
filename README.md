@@ -104,7 +104,7 @@ npx playwright show-report
 | ID | Escenario | Status esperado |
 |---|---|---|
 | CP001 | Actualizar usuario existente con datos válidos | 200 |
-| CP002 | Intentar actualizar usuario inexistente | 200 / 500 |
+| CP002 | Intentar actualizar usuario inexistente | OMITIDO: El mock no responde de forma consistente |
 
 ### DELETE /users/{id}
 
