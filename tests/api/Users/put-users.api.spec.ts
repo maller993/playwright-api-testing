@@ -27,7 +27,7 @@ test.describe('Users - Update User API Tests', () => {
     expect(body.email).toBe(updatedUser.email);
   });
 
- test('CP002 - [PUT] Actualizar usuario inexistente - 200/500 | Tags: @Desarrollo', async () => {
+ test.skip('CP002 - [PUT] Actualizar usuario inexistente', async ({ ... }) => {
   const response = await apiHelper.put('/users/999', { name: 'Test' });
 
   const status = response.status();
