@@ -27,8 +27,8 @@ test.describe('Users - Update User API Tests', () => {
     expect(body.email).toBe(updatedUser.email);
   });
 
- test.skip('CP002 - [PUT] Actualizar usuario inexistente', async ({ ... }) => {
-  const response = await apiHelper.put('/users/999', { name: 'Test' });
+  test.skip('CP002 - [PUT] Actualizar usuario inexistente - 200/500', async ({ request }) => {  
+    const response = await apiHelper.put('/users/999', { name: 'Test' });
 
   const status = response.status();
   expect([200, 500]).toContain(status);
